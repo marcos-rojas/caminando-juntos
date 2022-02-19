@@ -1,0 +1,54 @@
+
+.info--section ul {
+    list-style-type: none;
+}
+
+.footer--section {
+    display         : flex;
+    background-color: black;
+    color           : white;
+    margin          : 0;
+    justify-content : space-around;
+    padding         : 10px;
+}
+
+.footer--section .contact--section {
+    background-color: rgba(111, 111, 111, 0.267);
+}
+
+#asesoria--title {
+    color           : white;
+    background-color: #F09D51;
+    margin-top      : 0;
+    padding         : 10px;
+}
+
+.advice--form {
+    display        : flex;
+    flex-direction : column;
+    justify-content: space-around;
+    margin         : 10px;
+    margin-bottom  : 1px;
+}
+
+.advice--form button {
+    color           : black;
+    display         : block;
+    margin-top      : 10px;
+}
+
+
+.doglove--logo{
+    max-width: 50%;
+}
+.advice--form input{
+    background-color: rgb(177, 169, 169);
+    color: white;
+    border: none;
+    outline: none;
+}
+.contact--btn{
+    background-color:  #F09D51;
+    border: none;
+    outline: none;
+}

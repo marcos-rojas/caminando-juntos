@@ -1,0 +1,27 @@
+.help--section{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.help--content{
+    max-width: 400px;
+}
+.help--img{
+    max-width: 100%;
+    width: 380px;
+}
+
+.help--link{
+    color: white;
+    display: inline-block;
+    background-color: #3DC380;
+    text-decoration: none;
+    border-radius: 6px;
+    padding: 4px;
+}
+
+.help--text {
+    color: #F09D51;
+    font-size: 25px;
+}

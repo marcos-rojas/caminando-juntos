@@ -1,0 +1,37 @@
+.filter--section{
+    min-width: 150px;
+}
+.filter-show-selector {
+    display    : flex;
+    align-items: center;
+}
+
+.filter-icon {
+    width           : 20px;
+    height          : 20px;
+    border-radius   : 50%;
+    color           : white;
+    background-color: black;
+}
+.filter-icon:hover{
+    cursor: pointer;
+}
+.filter-icon.show {
+    animation          : selector-rotation 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes selector-rotation {
+    100% {
+        transform: rotate(180deg)
+    }
+}
+
+.filter--container{
+    border-bottom: 1px solid black;
+    margin-bottom: 10px;
+}
+
+.filter-form.close{
+    display: none;
+}

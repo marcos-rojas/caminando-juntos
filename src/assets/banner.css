@@ -1,0 +1,34 @@
+.banner--section{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.banner--content{
+    max-width: 400px;
+    display: flex;
+    justify-content: center;
+    flex-flow: wrap;
+}
+.banner--img{
+    max-width: 100%;
+    width: 380px;
+}
+
+.banner--link{
+    color: white;
+    display: block;
+    background-color: #3DC380;
+    text-decoration: none;
+    padding: 6px;
+    border-radius: 6px;
+}
+.banner--text{
+    padding:10px;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+.banner--text span{
+    color: #F09D51;
+    font-size: 25px;
+}
